@@ -47,7 +47,7 @@ fn main() {
        if !args.all && symlink.chars().nth(0).unwrap() == '.' {
            continue;
        } else {
-       println!("{}", symlink.purple());
+       println!("{}", symlink.red());
        }
    }
    for file in files {
